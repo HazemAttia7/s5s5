@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:gap/gap.dart';
 import 'package:s5s5/core/utils/app_colors.dart';
 import 'package:s5s5/core/utils/app_styles.dart';
 import 'package:s5s5/features/game/presentation/views/widgets/icon_text_row.dart';
