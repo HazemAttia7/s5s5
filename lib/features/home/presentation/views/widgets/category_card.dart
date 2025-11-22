@@ -94,7 +94,8 @@ class _CategoryCardState extends State<CategoryCard> {
                 leftPosition = isCircle ? null : 0;
                 topPosition = isCircle ? -32 : 0;
               });
-            }, info: widget.category.info,
+            },
+            info: widget.category.info,
           ),
         ),
       ],

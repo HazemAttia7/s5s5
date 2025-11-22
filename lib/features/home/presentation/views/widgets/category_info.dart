@@ -26,14 +26,12 @@ class _CategoryInfoState extends State<CategoryInfo> {
           });
           widget.changeContainerFit(isCircle);
         },
-        child: AnimatedContainer(
+        child: Container(
           decoration: BoxDecoration(
             color: Colors.blue,
             shape: isCircle ? BoxShape.circle : BoxShape.rectangle,
           ),
           padding: const EdgeInsets.all(14),
-          duration: const Duration(milliseconds: 300),
-          curve: Curves.fastOutSlowIn,
           child: Center(
             child: isCircle
                 ? const Text(
